@@ -22,7 +22,6 @@ export default function Post() {
             </div>
             <div className="postBottom">
                 <div className="postBottomLeft">
-                    {/* <img src="/images/Haha.png" alt="" className="reactionPic" /> */}
                     <img src="/images/Heart.png" alt="" className="reactionPic" />
                     <img src="/images/Like.png" alt="" className="reactionPic" />
                     <span className="likeCount">Iraj and 2K others</span>

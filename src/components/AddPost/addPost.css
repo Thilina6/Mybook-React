@@ -6,6 +6,9 @@
 }
 
 .addPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 95%;
     border-radius: 10px;
     height: 180px;
@@ -53,8 +56,11 @@
 .addPostOption{
     display: flex;
     align-items: center;
-    margin-right: 40px;
+    margin-right: 20px;
     cursor: pointer;
+}
+.addPostOptionText{
+    font-size: 15px;
 }
 
 .PostButton{
