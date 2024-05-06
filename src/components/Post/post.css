@@ -59,6 +59,15 @@
     object-fit: cover;
     cursor: pointer;
 }
+.heart{
+    color: red;
+}
+.like{
+    color: blue;
+}
+.haha{
+    color: yellow;
+}
 
 .postBottomLeft{
     display: flex;

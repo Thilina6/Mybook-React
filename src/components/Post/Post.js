@@ -1,3 +1,4 @@
+import {ThumbUp, Favorite, EmojiEmotions} from '@mui/icons-material';
 import React from 'react'
 import './post.css'
 
@@ -22,8 +23,8 @@ export default function Post() {
             </div>
             <div className="postBottom">
                 <div className="postBottomLeft">
-                    <img src="/images/Heart.png" alt="" className="reactionPic" />
-                    <img src="/images/Like.png" alt="" className="reactionPic" />
+                    <Favorite className="reactionPic heart" />
+                    <ThumbUp className="reactionPic like" />
                     <span className="likeCount">Iraj and 2K others</span>
                 </div>
                 <div className="postBottomRight">
@@ -50,8 +51,8 @@ export default function Post() {
             </div>
             <div className="postBottom">
                 <div className="postBottomLeft">
-                    <img src="/images/Heart.png" alt="" className="reactionPic" />
-                    <img src="/images/Like.png" alt="" className="reactionPic" />
+                    <Favorite className="reactionPic heart" />
+                    <ThumbUp className="reactionPic like" />
                     <span className="likeCount">Johnny Depp and 78K others</span>
                 </div>
                 <div className="postBottomRight">
@@ -79,8 +80,8 @@ export default function Post() {
             <div className="postBottom">
                 <div className="postBottomLeft">
                     {/* <img src="/images/Haha.png" alt="" className="reactionPic" /> */}
-                    <img src="/images/Like.png" alt="" className="reactionPic" />
-                    <img src="/images/Heart.png" alt="" className="reactionPic" />
+                    <Favorite className="reactionPic heart" />
+                    <ThumbUp className="reactionPic like" />
                     <span className="likeCount">Elon Musk and 225 others</span>
                 </div>
                 <div className="postBottomRight">
@@ -108,8 +109,8 @@ export default function Post() {
             <div className="postBottom">
                 <div className="postBottomLeft">
                     {/* <img src="/images/Haha.png" alt="" className="reactionPic" /> */}
-                    <img src="/images/Heart.png" alt="" className="reactionPic" />
-                    <img src="/images/Like.png" alt="" className="reactionPic" />
+                    <Favorite className="reactionPic heart" />
+                    <ThumbUp className="reactionPic like" />
                     <span className="likeCount">Kevin Hanseen and 2M others</span>
                 </div>
                 <div className="postBottomRight">
@@ -136,9 +137,9 @@ export default function Post() {
             </div>
             <div className="postBottom">
                 <div className="postBottomLeft">
-                    <img src="/images/Haha.png" alt="" className="reactionPic" />
-                    <img src="/images/Like.png" alt="" className="reactionPic" />
-                    <img src="/images/Heart.png" alt="" className="reactionPic" />
+                    <EmojiEmotions className="reactionPic haha" />
+                    <Favorite className="reactionPic heart" />
+                    <ThumbUp className="reactionPic like" />
                     <span className="likeCount">Bill Gates and 22K others</span>
                 </div>
                 <div className="postBottomRight">
